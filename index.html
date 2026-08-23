@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>강나미 | 강남지역단 8월 3주차 시상 가이드</title>
+<title>강나미 | 강남지역단 8월 4주차 시상 가이드</title>
 
-<!-- ▼ 카톡/메신저 공유 카드용 메타태그 (아래 URL 3곳을 본인 깃허브 주소로 교체하세요) -->
+<!-- ▼ 카톡/메신저 공유 카드용 메타태그 -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="강나미">
-<meta property="og:title" content="강나미 | 강남지역단 8월 3주차 시상 가이드">
+<meta property="og:title" content="강나미 | 강남지역단 8월 4주차 시상 가이드">
 <meta property="og:description" content="이번 주 내 시상, 강나미에게 바로 확인해보세요.">
 <meta property="og:image" content="https://gangnami.github.io/gangnami570/thumbnail.jpg">
 <meta property="og:image:secure_url" content="https://gangnami.github.io/gangnami570/thumbnail.jpg">
@@ -17,7 +17,7 @@
 <meta property="og:image:height" content="768">
 <meta property="og:url" content="https://gangnami.github.io/gangnami570/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="강나미 | 강남지역단 8월 3주차 시상 가이드">
+<meta name="twitter:title" content="강나미 | 강남지역단 8월 4주차 시상 가이드">
 <meta name="twitter:description" content="이번 주 내 시상, 강나미에게 바로 확인해보세요.">
 <meta name="twitter:image" content="https://gangnami.github.io/gangnami570/thumbnail.jpg">
 <!-- ▲ -->
@@ -48,7 +48,6 @@
   }
   .wrap{max-width:480px;margin:0 auto;padding:0 20px;}
 
-  /* header */
   .header{
     background:linear-gradient(160deg, var(--navy) 0%, #16283F 100%);
     padding:34px 20px 46px;
@@ -65,17 +64,13 @@
     background:radial-gradient(circle, rgba(255,91,53,0.35), transparent 70%);
   }
   .brand-row{display:flex;align-items:baseline;gap:8px;position:relative;z-index:1;}
-  .brand{
-    font-size:30px;font-weight:800;letter-spacing:-0.5px;
-  }
+  .brand{font-size:30px;font-weight:800;letter-spacing:-0.5px;}
   .brand-badge{
     display:inline-block;font-size:11px;font-weight:700;
     background:var(--coral);color:#fff;padding:3px 8px;border-radius:20px;
     letter-spacing:0.5px;
   }
-  .sub{
-    margin-top:8px;font-size:14px;color:#C6D0DB;font-weight:500;position:relative;z-index:1;
-  }
+  .sub{margin-top:8px;font-size:14px;color:#C6D0DB;font-weight:500;position:relative;z-index:1;}
   .period-chip{
     display:inline-flex;align-items:center;gap:6px;
     margin-top:14px;background:rgba(255,255,255,0.1);
@@ -141,11 +136,8 @@
     box-shadow:0 8px 20px rgba(255,91,53,0.35);
   }
   .cta:active{transform:scale(0.98);}
-  .cta.ghost{
-    background:#fff;color:var(--navy);border:2px solid var(--line);box-shadow:none;
-  }
+  .cta.ghost{background:#fff;color:var(--navy);border:2px solid var(--line);box-shadow:none;}
 
-  /* result */
   .hero-result{
     background:linear-gradient(150deg, var(--coral) 0%, var(--coral-deep) 100%);
     border-radius:22px;padding:30px 24px;color:#fff;margin-bottom:18px;
@@ -197,8 +189,8 @@
       <span class="brand">강나미</span>
       <span class="brand-badge">GANGNAM</span>
     </div>
-    <div class="sub">강남지역단 8월 3주차 시상 가이드</div>
-    <div class="period-chip">📅 3차 (8/17~21, 4영업일) 기준</div>
+    <div class="sub">강남지역단 8월 4주차 시상 가이드</div>
+    <div class="period-chip">📅 4차 (8/24~28, 5영업일) 기준</div>
   </div>
 </div>
 
@@ -214,7 +206,7 @@
 
     <div class="card">
       <div class="field-label"><span class="field-num">2</span>이번 주 인보험 실적</div>
-      <div class="field-help">3차 (8/17~21) 기준 실적을 입력하세요</div>
+      <div class="field-help">4차 (8/24~28) 기준 실적을 입력하세요</div>
       <div class="input-with-unit">
         <input type="number" inputmode="numeric" id="inpWeekly" placeholder="예) 380000">
         <span class="unit">원</span>
@@ -231,28 +223,28 @@
     </div>
 
     <div class="card">
-      <div class="field-label"><span class="field-num">4</span>이번 달 누적 인보험 실적</div>
+      <div class="field-label"><span class="field-num">4</span>8월 유실적, 이번 주에 처음 달성하셨나요?</div>
+      <div class="field-help">LAST Chance 첫달성 시상 (8월 들어 이번 주에 처음으로 실적을 냈다면 '네')</div>
+      <div class="toggle-row">
+        <button type="button" class="toggle-btn" data-group="firstAchieve" data-val="yes" onclick="selectToggle('firstAchieve','yes')">네</button>
+        <button type="button" class="toggle-btn" data-group="firstAchieve" data-val="no" onclick="selectToggle('firstAchieve','no')">아니요</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="field-label"><span class="field-num">5</span>브릿지 참여 실적</div>
+      <div class="field-help">장기하이캡 17배↑ 계약(인보험) 실적 · 강남지역단 즉시지급 특별시상 기준</div>
+      <div class="input-with-unit">
+        <input type="number" inputmode="numeric" id="inpBridge" placeholder="예) 150000">
+        <span class="unit">원</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="field-label"><span class="field-num">6</span>이번 달 누적 인보험 실적</div>
       <div class="field-help">8월 전체(1~31일) 누적 실적 · 50만 챌린지 판정용</div>
       <div class="input-with-unit">
         <input type="number" inputmode="numeric" id="inpMonthly" placeholder="예) 620000">
-        <span class="unit">원</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="field-label"><span class="field-num">5</span>비암치플랜 누계실적</div>
-      <div class="field-help">3차 (8/17~21) 기준</div>
-      <div class="input-with-unit">
-        <input type="number" inputmode="numeric" id="inpBiamchi" placeholder="예) 50000">
-        <span class="unit">원</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="field-label"><span class="field-num">6</span>표준체 4종 실적</div>
-      <div class="field-help">퍼펙트·스타·1540·인.품 중 표준체 계약 실적 (8월 3~5차, 17일~마감 누계)</div>
-      <div class="input-with-unit">
-        <input type="number" inputmode="numeric" id="inpHighstar" placeholder="예) 60000">
         <span class="unit">원</span>
       </div>
     </div>
@@ -264,7 +256,7 @@
   <div id="resultScreen" class="hidden">
 
     <div class="hero-result">
-      <div class="label">예상 총 시상금</div>
+      <div class="label">예상 총 시상금 (현금·쿠폰 기준)</div>
       <div class="amount" id="totalAmount">0원</div>
       <div class="name" id="resultName"></div>
     </div>
@@ -289,42 +281,36 @@
    ========================================================= */
 const CALC = {
 
-  // 인보험 시상 하이캡 17배수↑ (3차 17~21일, 70%)
+  // 인보험 시상 하이캡 17배수↑ (4차 24~28일, 50%) — 이번 주는 10만원 미만 지급 없음
   highcap: {
-    tiers: [ // min: 원 단위, base: 기본시상(원), bonus: 하이캡 추가시상(원)
-      { min: 1000000, base: null, bonus: 300000, baseIsPrincipal: true }, // 100만원↑ : 기본시상 = 실적금액의 100%
-      { min: 700000,  base: 280000, bonus: 210000 },
-      { min: 500000,  base: 200000, bonus: 150000 },
-      { min: 400000,  base: 160000, bonus: 120000 },
-      { min: 300000,  base: 120000, bonus: 90000 },
-      { min: 200000,  base: 80000,  bonus: 60000 },
-      { min: 100000,  base: 40000,  bonus: 30000 },
-      { min: 50000,   base: 20000,  bonus: 0 },
+    tiers: [
+      { min: 1000000, base: null, bonus: 200000, baseIsPrincipal: true }, // 100만원↑ : 기본시상 = 실적금액의 100%
+      { min: 700000,  base: 210000, bonus: 140000 },
+      { min: 500000,  base: 150000, bonus: 100000 },
+      { min: 400000,  base: 120000, bonus: 80000  },
+      { min: 300000,  base: 90000,  bonus: 60000  },
+      { min: 200000,  base: 60000,  bonus: 40000  },
+      { min: 100000,  base: 30000,  bonus: 20000  },
     ],
-    allThresholds: [50000,100000,200000,300000,400000,500000,700000,1000000],
-    bonusThresholds: [100000,200000,300000,400000,500000,700000,1000000], // 5만원 구간은 하이캡 추가시상 없음
+    allThresholds: [100000,200000,300000,400000,500000,700000,1000000],
+    bonusThresholds: [100000,200000,300000,400000,500000,700000,1000000],
 
-    // amount: 구간 인보험 실적(기본시상용) / highcap17xAmount: 하이캡 17배수 이상 실적(추가시상용)
     calc(amount, highcap17xAmount) {
       const tier = this.tiers.find(t => amount >= t.min);
       const bonusTier = this.tiers.find(t => highcap17xAmount >= t.min);
-
       const base = tier ? (tier.baseIsPrincipal ? amount : tier.base) : 0;
       const bonus = bonusTier ? bonusTier.bonus : 0;
-
       return {
         base, bonus, total: base + bonus,
         tierLabel: tier ? (tier.min/10000)+'만원↑' : null,
         bonusTierLabel: bonusTier ? (bonusTier.min/10000)+'만원↑' : null,
       };
     },
-
     nextGoal(amount) {
       const next = this.allThresholds.find(t => t > amount);
       if (!next) return null;
       return { gap: next - amount, label: (next/10000)+'만원' };
     },
-
     nextBonusGoal(highcap17xAmount) {
       const next = this.bonusThresholds.find(t => t > highcap17xAmount);
       if (!next) return null;
@@ -332,18 +318,27 @@ const CALC = {
     }
   },
 
-  // 강남지역단 바캉스 이벤트 무더위 극복 시상 Again! (3차 17~21일, 인당 실적)
-  vacation: {
+  // LAST Chance! 유실적 첫달성 시상 (지역단) — 4차 24~28일, 8월 유실적 최초 달성시
+  lastChance: {
+    amount: 30000,
+    label: 'SK 주유권 3만원 쿠폰',
+    calc(isFirstAchieve) { return !!isFirstAchieve; }
+  },
+
+  // 강남지역단 브릿지 참여 즉시 지급 특별시상 (지역단) — 4차 24~28일, 장기하이캡 17배↑ 계약(인보험) 실적
+  bridge: {
     tiers: [
-      { min: 300000, label: '주유권 9만원 또는 테팔 무선청소기' },
-      { min: 200000, label: '주유권 6만원 또는 필립스 에어프라이기' },
-      { min: 100000, label: '주유권 3만원 또는 홍삼활기력 1세트' },
+      { min: 300000, count: 3 },
+      { min: 200000, count: 2 },
+      { min: 100000, count: 1 },
     ],
     thresholds: [100000,200000,300000],
+    couponUnit: 30000, // 배달의민족 또는 올리브영 쿠폰 1매 = 3만원
 
     calc(amount) {
       const tier = this.tiers.find(t => amount >= t.min);
-      return tier ? tier.label : null;
+      const count = tier ? tier.count : 0;
+      return { count, cash: count * this.couponUnit };
     },
     nextGoal(amount) {
       const next = this.thresholds.find(t => t > amount);
@@ -356,46 +351,10 @@ const CALC = {
   challenge50: {
     threshold: 500000,
     prize: '최고급 LA갈비 2KG',
-    calc(monthlyAmount) {
-      return monthlyAmount >= this.threshold;
-    },
+    calc(monthlyAmount) { return monthlyAmount >= this.threshold; },
     nextGoal(monthlyAmount) {
       if (monthlyAmount >= this.threshold) return null;
       return { gap: this.threshold - monthlyAmount, label: '50만원' };
-    }
-  },
-
-  // 누구나 비암치플랜 추가시상 (3차 17~21일 누계실적, 이번 주는 사전예약 보너스 없음 · 기본시상만)
-  biamchi: {
-    tiers: [
-      { min: 100000, base: 100000 },
-      { min: 50000,  base: 50000  },
-      { min: 20000,  base: 20000  },
-    ],
-    thresholds: [20000,50000,100000],
-
-    calc(amount) {
-      const tier = this.tiers.find(t => amount >= t.min);
-      const base = tier ? tier.base : 0;
-      return { base, total: base };
-    },
-    nextGoal(amount) {
-      const next = this.thresholds.find(t => t > amount);
-      if (!next) return null;
-      return { gap: next - amount, label: (next/10000)+'만원' };
-    }
-  },
-
-  // 하이스타 조커 특별시상 (본사) — 8월 3~5차(17일~마감), 표준체 4종(퍼펙트/스타/1540/인.품) 5만원↑
-  highstarJoker: {
-    threshold: 50000,
-    label: '하이스타 조커 인정',
-    calc(amount) {
-      return amount >= this.threshold;
-    },
-    nextGoal(amount) {
-      if (amount >= this.threshold) return null;
-      return { gap: this.threshold - amount, label: '5만원' };
     }
   }
 };
@@ -403,6 +362,18 @@ const CALC = {
 /* =========================================================
    2. UI 로직
    ========================================================= */
+const state = { firstAchieve: null };
+
+function selectToggle(group, val){
+  state[group] = val;
+  document.querySelectorAll(`.toggle-btn[data-group="${group}"]`).forEach(btn=>{
+    btn.classList.remove('active-yes','active-no');
+    if(btn.dataset.val === val){
+      btn.classList.add(val === 'yes' ? 'active-yes' : 'active-no');
+    }
+  });
+}
+
 function won(n){
   return Math.round(n).toLocaleString('ko-KR') + '원';
 }
@@ -417,22 +388,21 @@ function showResult(){
   const name = document.getElementById('inpName').value.trim() || '플래너';
   const weekly = Number(document.getElementById('inpWeekly').value) || 0;
   const highcap17x = Number(document.getElementById('inpHighcap17').value) || 0;
+  const bridgeAmt = Number(document.getElementById('inpBridge').value) || 0;
   const monthly = Number(document.getElementById('inpMonthly').value) || 0;
-  const biamchiAmt = Number(document.getElementById('inpBiamchi').value) || 0;
-  const highstarAmt = Number(document.getElementById('inpHighstar').value) || 0;
+  const isFirstAchieve = state.firstAchieve === 'yes';
 
   // --- 계산 ---
   const hc = CALC.highcap.calc(weekly, highcap17x);
-  const vac = CALC.vacation.calc(weekly);
+  const lc = CALC.lastChance.calc(isFirstAchieve);
+  const br = CALC.bridge.calc(bridgeAmt);
   const won50 = CALC.challenge50.calc(monthly);
-  const bi = CALC.biamchi.calc(biamchiAmt);
-  const joker = CALC.highstarJoker.calc(highstarAmt);
 
-  const totalCash = hc.total + bi.total; // 현금성 시상 합계 (경품류 제외)
+  const totalCash = hc.total + (lc ? CALC.lastChance.amount : 0) + br.cash;
 
   // --- 총액 ---
   document.getElementById('totalAmount').textContent = won(totalCash);
-  document.getElementById('resultName').textContent = `${name}님의 예상 시상 내역 (현금성 시상 기준)`;
+  document.getElementById('resultName').textContent = `${name}님의 예상 시상 내역`;
 
   // --- 항목별 카드 ---
   const cards = [];
@@ -441,15 +411,22 @@ function showResult(){
     title: '인보험 시상 (하이캡 17배수↑)',
     desc: hc.tierLabel
       ? `기본시상 구간: ${hc.tierLabel}${hc.bonusTierLabel ? ` · 하이캡 추가시상 구간: ${hc.bonusTierLabel}` : ' · 하이캡 추가시상 대상 아님'}`
-      : '5만원 이상부터 지급 대상입니다',
+      : '10만원 이상부터 지급 대상입니다',
     amount: hc.total,
   }));
 
   cards.push(awardCardHTML({
-    title: '강남지역단 바캉스 이벤트',
-    desc: vac ? vac : '10만원 이상부터 경품 지급 대상입니다',
-    amount: null,
-    badge: vac ? '경품 대상' : null,
+    title: 'LAST Chance! 유실적 첫달성 시상',
+    desc: lc ? `${CALC.lastChance.label} 지급 대상 (다른 시상과 중복 가능)` : '8월 첫 유실적 달성 시 지급됩니다',
+    amount: lc ? CALC.lastChance.amount : 0,
+  }));
+
+  cards.push(awardCardHTML({
+    title: '강남지역단 브릿지 참여 특별시상',
+    desc: br.count > 0
+      ? `배달의민족 또는 올리브영 쿠폰 3만원 x${br.count}매 (교차선택 가능)`
+      : '10만원 이상부터 지급 대상입니다',
+    amount: br.cash,
   }));
 
   cards.push(awardCardHTML({
@@ -457,23 +434,6 @@ function showResult(){
     desc: won50 ? `${CALC.challenge50.prize} 지급 대상 (월누적 기준)` : '월누적 50만원 이상부터 대상입니다',
     amount: null,
     badge: won50 ? 'LA갈비 대상' : null,
-  }));
-
-  cards.push(awardCardHTML({
-    title: '비암치플랜 추가시상',
-    desc: bi.total > 0
-      ? `기본시상 ${won(bi.base)} (이번 주는 사전예약 추가시상 없음)`
-      : '2만원 이상부터 지급 대상입니다',
-    amount: bi.total,
-  }));
-
-  cards.push(awardCardHTML({
-    title: '하이스타 조커 특별시상',
-    desc: joker
-      ? '표준체 4종(퍼펙트/스타/1540/인.품) 5만원↑ 달성 · 하이스타 조커 인정'
-      : '표준체 4종 실적 5만원 이상부터 인정됩니다',
-    amount: null,
-    badge: joker ? '조커 인정' : null,
   }));
 
   document.getElementById('awardList').innerHTML = cards.join('');
@@ -486,17 +446,11 @@ function showResult(){
   const g1b = CALC.highcap.nextBonusGoal(highcap17x);
   if(g1b) goals.push(goalHTML(`하이캡 추가시상 다음 구간(<b>${g1b.label}</b>)까지 <b>${won(g1b.gap)}</b> 남았어요.`));
 
-  const g2 = CALC.vacation.nextGoal(weekly);
-  if(g2) goals.push(goalHTML(`바캉스 이벤트 다음 경품 구간(<b>${g2.label}</b>)까지 <b>${won(g2.gap)}</b> 남았어요.`));
+  const g2 = CALC.bridge.nextGoal(bridgeAmt);
+  if(g2) goals.push(goalHTML(`브릿지 참여 특별시상 다음 구간(<b>${g2.label}</b>)까지 <b>${won(g2.gap)}</b> 남았어요.`));
 
   const g3 = CALC.challenge50.nextGoal(monthly);
   if(g3) goals.push(goalHTML(`50만 챌린지 LA갈비까지 <b>${won(g3.gap)}</b> 남았어요. (월누적 기준)`));
-
-  const g4 = CALC.biamchi.nextGoal(biamchiAmt);
-  if(g4) goals.push(goalHTML(`비암치플랜 다음 구간(<b>${g4.label}</b>)까지 <b>${won(g4.gap)}</b> 남았어요.`));
-
-  const g5 = CALC.highstarJoker.nextGoal(highstarAmt);
-  if(g5) goals.push(goalHTML(`하이스타 조커 인정까지 <b>${won(g5.gap)}</b> 남았어요. (표준체 4종 기준)`));
 
   document.getElementById('goalList').innerHTML = goals.length ? goals.join('') :
     `<div class="goal-box">🎉 모든 항목에서 최고 구간을 달성하셨어요!</div>`;
